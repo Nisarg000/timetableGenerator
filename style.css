@@ -38,3 +38,19 @@ body
     background: #000;
     opacity: 0.8;
 }
+
+.main-container nav
+{
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto; /*0 for top and bottom while auto for the left and right margin*/
+    background: red;
+    padding: 24px 32px;
+}
+
