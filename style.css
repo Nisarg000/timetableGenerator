@@ -102,5 +102,15 @@ body
 {
     font-family: "Sacramento", cursive;
     font-size: 90px;
+    margin: 0;
+}
+.main-container .hero-section p
+{
+    font-size: 20px;
+    margin-top: -24px;
+}
+
+.main-container .hero-section a.btn
+{
     
 }
