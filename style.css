@@ -14,6 +14,11 @@ body
 
 /* hidden items for the mobile */
 
+.main-container
+{
+    font-family: "Roboto", sans-serif;
+}
+
 .main-container nav .menu-button,
 .mobile-menu-items /* this will hide the x button and the above one for the meni bar */
 {
@@ -50,7 +55,21 @@ body
     align-items: center;
     justify-content: space-between;
     margin: 0 auto; /*0 for top and bottom while auto for the left and right margin*/
-    background: red;
     padding: 24px 32px;
 }
 
+.main-container nav .logo a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.main-container nav ul
+{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
