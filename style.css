@@ -10,6 +10,7 @@ body
     -webkit-font-smoothing: antialiased; /* antialiased text for Chrome */
     -moz-osx-font-smoothing: grayscale; /* This is needed for Firefox on OS X */
     text-rendering: optimizeLegibility; /* this makes text legible in Chrome, Safari and IE */
+    background-color: #000;
 }
 
 /* hidden items for the mobile */
@@ -17,6 +18,14 @@ body
 .main-container
 {
     font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 32px;
+    color: #fff;
 }
 
 .main-container nav .menu-button,
@@ -31,6 +40,7 @@ body
     top: 0;
     left: 0;
     width: 100%;   
+    z-index: 0;
 }
 
 .main-container .bg-overlay 
@@ -80,5 +90,10 @@ body
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
-    
+}
+
+.main-container .hero-section
+{
+    position: relative;
+    z-index: 2;
 }
