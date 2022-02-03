@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* includes the height and padding of the element */
+}
+
+body
+{
+    -webkit-font-smoothing: antialiased; /* antialiased text for Chrome */
+    -moz-osx-font-smoothing: grayscale; /* This is needed for Firefox on OS X */
+    text-rendering: optimizeLegibility; /* this makes text legible in Chrome, Safari and IE */
+}
+
+/* hidden items for the mobile */
+
+.main-container nav .menu-button,
+.mobile-menu-items /* this will hide the x button and the above one for the meni bar */
+{
+    display: none;
+}
+
+.main-container video
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;   
+}
+
