@@ -112,5 +112,13 @@ body
 
 .main-container .hero-section a.btn
 {
-    
+    display: inline-block; /* to make sure the padding and margin apply correctly */
+    text-decoration: none;
+    color: #fff;
+    background: #d62828;
+    padding: 10px 32px;
+    border-left: 8px solid #f1faee;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 14px;
 }
