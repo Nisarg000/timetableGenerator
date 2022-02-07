@@ -69,6 +69,10 @@ body
     justify-content: space-between;
     margin: 0 auto; /*0 for top and bottom while auto for the left and right margin*/
     padding: 24px 32px;
+
+    opacity: 0;
+    animation: fadeIn 1000ms ease-in-out forwards;
+    animation-delay: 400ms;
 }
 
 .main-container nav .logo a
@@ -144,6 +148,11 @@ body
 {
     font-size: 20px;
     margin-top: -24px;
+
+    transform: translateY(15px);
+    opacity: 0;
+    animation: fadeIn 1000ms ease-in-out forwards;
+    animation-delay: 400ms;
 }
 
 .main-container .hero-section a.btn
@@ -158,6 +167,10 @@ body
     text-transform: uppercase;
     margin-top: 14px;
     transition: all 400ms ease;
+
+    opacity: 0;
+    animation: fadeIn 1000ms ease-in-out forwards;
+    animation-delay: 1000ms;
 }
 
 .main-container .hero-section a.btn :hover
