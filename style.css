@@ -27,6 +27,8 @@ body
     padding: 32px;
     color: #fff;
     z-index: 2; /*This is needed for the mobile and made the main container on top of the mobile items */
+    background: #000; /*This shall hide the menued mobile links*/
+    transition: all 400ms ease;
 }
 
 .main-container nav .menu-button,
@@ -136,6 +138,7 @@ body
         display: block;
         width: 30px;
         height: 30px;
+        transition: all 400ms ease;
     }
 
     .main-container .hero-section h1
@@ -159,6 +162,11 @@ body
     .main-container.active
     {
         transform: translateX(-190px) rotateZ(-4deg) scale(1.1);
+    }
+
+    .main-container.active nav .menu-button
+    {
+        opacity: 0;
     }
     
     .mobile-menu-items
@@ -198,6 +206,5 @@ body
         top: 24px;
         right: 32px;
         color: #fff;
-        
     }
 }
