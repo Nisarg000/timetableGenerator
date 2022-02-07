@@ -122,3 +122,33 @@ body
     text-transform: uppercase;
     margin-top: 14px;
 }
+
+@media (max-width: 600px)
+{
+    .main-container nav .menu-items
+    {
+        display: none;
+    }
+
+    .main-container nav .menu-button
+    {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+
+    .main-container .hero-section h1
+    {
+        font-size: 60px;
+    }
+    .main-container .hero-section p
+    {
+        font-size: 16px;
+        margin-top: -6px;
+    }
+    .main-container .hero-section a.btn
+    {
+        /* padding: 8px 16px; */
+        font-size: 14px;
+    }
+}
