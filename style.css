@@ -124,6 +124,12 @@ body
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 14px;
+    transition: all 400ms ease;
+}
+
+.main-container .hero-section a.btn :hover
+{
+    background-color: #a11b1b;
 }
 
 @media (max-width: 600px)
