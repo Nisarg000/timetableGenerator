@@ -92,7 +92,26 @@ body
     text-decoration: none;
     color: #fff;
     font-size: 15px;
-    text-transform: uppercase;
+    text-transform: uppercase;   
+    position: relative; /*for doing the underlin in the anchor tag*/
+}
+
+.main-container nav ul a::after
+{
+    content: ""; /*always leave this empty*/
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%; /*default*/
+    height: 1px;
+    background-color: #fff;
+    transition: all 400ms ease;
+}
+
+.main-container nav ul a:hover::after
+{
+    width: 100%;
+
 }
 
 .main-container .hero-section
