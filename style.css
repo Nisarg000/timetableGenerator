@@ -1,12 +1,13 @@
 *
 {
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
+    /* padding: 0; */
     box-sizing: border-box; /* includes the height and padding of the element */
 }
 
 body
 {
+    margin: 0;
     -webkit-font-smoothing: antialiased; /* antialiased text for Chrome */
     -moz-osx-font-smoothing: grayscale; /* This is needed for Firefox on OS X */
     text-rendering: optimizeLegibility; /* this makes text legible in Chrome, Safari and IE */
@@ -29,6 +30,8 @@ body
     z-index: 2; /*This is needed for the mobile and made the main container on top of the mobile items */
     background: #000; /*This shall hide the menued mobile links*/
     transition: all 400ms ease;
+
+    position: relative;
 }
 
 .main-container nav .menu-button,
@@ -115,7 +118,6 @@ body
 .main-container nav ul a:hover::after
 {
     width: 100%;
-
 }
 
 .main-container .hero-section
@@ -165,7 +167,7 @@ body
     border-left: 8px solid #f1faee;
     font-size: 16px;
     text-transform: uppercase;
-    margin-top: 14px;
+    /* margin-top: 14px; */
     transition: all 400ms ease;
 
     opacity: 0;
