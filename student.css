@@ -1,0 +1,13 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080710;
+    -webkit-font-smoothing: antialiased; /* antialiased text for Chrome */
+    -moz-osx-font-smoothing: grayscale; /* This is needed for Firefox on OS X */
+    text-rendering: optimizeLegibility; /* this makes text legible in Chrome, Safari and IE */
+}
