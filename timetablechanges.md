@@ -29,3 +29,4 @@ the hover button is not working (watch a demo)
 
 add a few more changes to the login screen and make it responsive
 add hovers to the login screen
+add the home button to the login screen
