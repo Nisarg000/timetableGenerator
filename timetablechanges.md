@@ -26,3 +26,6 @@ also add a better css animation for the button in the hero section
 instead of using the .js file lets make use of php
 
 the hover button is not working (watch a demo)
+
+add a few more changes to the login screen and make it responsive
+add hovers to the login screen
